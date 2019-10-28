@@ -1,0 +1,84 @@
+@import url(//cdn.datatables.net/1.10.20/css/jquery.dataTables.min.css);
+@charset "UTF-8";
+
+.users-style {
+  width: 70%;
+  margin: auto;
+  margin-top: 20px;
+}
+
+.users-style .table-style {
+  margin-bottom: 10px;
+  margin-left:200px;
+  align-content: center;
+
+}
+
+.users-style .table-style input {
+  width: 175px;
+  color: #000000;
+}
+
+.users-style .table-style .control {
+  float: right;
+  margin-right: 400px;
+
+}
+
+.users-style .table {
+  width: 55%;
+  align-content: center;
+  background-color: snow;
+  margin-left: 200px;
+}
+
+.users-style .table .sorting {
+  background-image: url("/images/sort_both.png");
+  background-repeat: no-repeat;
+  background-position: center right;
+}
+
+.users-style .table .sorting_asc {
+  background-image: url("/images/sort_asc.png");
+  background-repeat: no-repeat;
+  background-position: center right;
+}
+
+.users-style .table .sorting_desc {
+  background-image: url("/images/sort_desc.png");
+  background-repeat: no-repeat;
+  background-position: center right;
+}
+
+
+.users-style nav > a {
+  color: white !important;
+  margin-right: 10px;
+}
+
+h1 {
+  text-align: center;
+  font-size: 30px;
+}
+
+.pagination {
+  /*justify-content: flex-end !important;*/
+  /*align-content: center;*/
+  margin-left: 500px;
+  color: #f8fafc;
+}
+
+.pagination .page-stats {
+  /*align-items: center;*/
+  margin-left:500px;
+}
+.pagination i {
+  color: #3273dc !important;
+}
+body {
+  font-family: "Nunito", sans-serif;
+  font-size: 0.9rem;
+  font-weight: 400;
+  line-height: 1.6;
+  text-align: left;
+}
